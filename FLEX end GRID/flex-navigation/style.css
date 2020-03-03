@@ -1,0 +1,26 @@
+#nav-bar{
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#nav-bar a{
+    color: white;
+    display: block;
+    padding: 1em;
+    
+}
+#nav-bar ul{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#nav-bar ul:first-child{
+    margin-left: 5em;
+}
+#nav-bar ul:last-child{
+    margin-right: 5em;
+}
+
